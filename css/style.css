@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  background-color: #cecdcd;
+  
+}
+.item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.songs-wrapper {
+  margin-top: 5px;
+  border: 2px solid #ccc;
+	max-width: 550px;
+  background-color: rgb(207, 193, 225);
+  border-radius: 15px;
+}
+.button {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.button:hover {
+  background-color: #ccc;
+}
+.button__add {
+  background-color: #5a15c2;
+  padding: 7px;
+  border-radius: 10px;
+  color: white;  
+}
+
+.button__add:hover {
+  transform: scale(1.05,1.1);
+}
+
+.like {
+  background-color: #ff9fa4;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.unlike {
+  background-color: #ff9fa4;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.delete {
+  background-color: #a6e2f5;
+  margin: 3px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.like:hover {
+  transform: scale(1.1,1.1);
+}
+
+.unlike:hover {
+  transform: scale(1.1,1.1);
+}
+
+.delete:hover {
+  transform: scale(1.1,1.1);
+}
+.input-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.count-title span {
+  color: #646464;
+	font-weight: bold;
+}
+.like-icon {
+  height: 100%;
+  margin-right: 5px;
+}
